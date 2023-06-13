@@ -1,0 +1,40 @@
+.panel-wrapper {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--Dark-grey);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 15px 0px 10px 0px;
+}
+.sort-title {
+  margin-left: 24px;
+  color: var(--Red);
+  word-spacing: 2px;
+}
+.sort-by-name {
+  cursor: pointer;
+  border-right: 2px solid var(--Main-purple);
+  padding-right: 10px;
+}
+.sort-by-price {
+  cursor: pointer;
+}
+
+.sort-by-name:hover,
+.sort-by-price:hover {
+  color: var(--Main-purple);
+}
+
+.global-wrapper.dark .panel-wrapper {
+  color: var(--White);
+}
+
+.sort-by-name.active,
+.sort-by-price.active {
+  color: green;
+}

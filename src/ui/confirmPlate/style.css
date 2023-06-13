@@ -1,0 +1,50 @@
+.buttons-wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.add-task-title.red {
+  color: var(--Red);
+}
+.add-task-title {
+  margin-bottom: 24px;
+}
+
+.general-btn.delete {
+  width: 100%;
+  background-color: var(--Red);
+  color: var(--White);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.general-btn.cancel {
+  width: 100%;
+  background: rgba(99, 95, 199, 0.1);
+  color: var(--Main-purple);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.global-wrapper.dark .general-btn.cancel {
+  color: var(--White);
+}
+
+.highligt {
+  color: black;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.global-wrapper.dark .highligt {
+  color: var(--White);
+  font-weight: bold;
+}
