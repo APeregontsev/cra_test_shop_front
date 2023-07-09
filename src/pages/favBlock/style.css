@@ -1,0 +1,120 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+/* --------MAIN-BLOCK---------------------------------------------------------------------- */
+
+.main-block-wrapper.fav {
+  width: 100%;
+  height: calc(100vh - 100px);
+  position: relative;
+  background-color: var(--Light-grey);
+  overflow: auto;
+  border-right: 2px solid var(--Lines-light);
+  border-left: 2px solid var(--Lines-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-block-wrapper.fav .main-block-body-wrapper {
+  flex-grow: 1;
+}
+
+.main-block-wrapper.fav .total-wrapper {
+  background-color: var(--Lines-light);
+}
+
+@media (max-width: 1100px) {
+  .main-block-wrapper {
+    width: calc(100vw - 260px);
+  }
+}
+
+@media (max-width: 840px) {
+  .main-block-wrapper {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 530px) {
+  .main-block-wrapper {
+    height: auto;
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 530px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 530px) {
+  .global-wrapper.dark .wrapper {
+    flex-direction: column;
+    background-color: var(--Dark-grey);
+    height: calc(100vh - 100px);
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 530px) {
+  .wrapper {
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    justify-content: flex-start;
+  }
+}
+
+.sidebar-wrapper.hide + .main-block-wrapper {
+  width: 100vw;
+}
+
+.global-wrapper.dark .main-block-wrapper {
+  background-color: var(--Very-dark-grey);
+
+  border-right: 2px solid var(--Lines-dark);
+  border-left: 2px solid var(--Lines-dark);
+}
+
+/* --------MAIN-BODY---------------------------------------------------------------------- */
+.main-block-body-wrapper {
+  background-color: var(--Light-grey);
+  padding: 24px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.global-wrapper.dark .main-block-body-wrapper {
+  background-color: var(--Very-dark-grey);
+}
+
+.column-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 280px;
+}
+
+@media (max-width: 530px) {
+  .main-block-body-wrapper {
+    justify-content: center;
+  }
+}
+
+.global-wrapper.dark .total-wrapper {
+  background-color: var(--Dark-grey);
+  color: var(--White);
+}

@@ -1,0 +1,107 @@
+.history-wrapper {
+  min-height: calc(100vh - 100px);
+  padding: 25px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.history-inputs {
+  width: 50%;
+}
+.add-task-block-wrapper {
+}
+.inner-modal-title {
+}
+.input-text {
+}
+.history-orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.order-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid var(--Main-purple);
+  height: 100%;
+  border-radius: 5px;
+}
+.order-list {
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.global-wrapper.dark .history-wrapper {
+  background-color: var(--Very-dark-grey);
+}
+
+.global-wrapper.dark .product-wrapper {
+  background-color: var(--Dark-grey);
+}
+
+.global-wrapper.dark .task-title {
+  color: var(--White);
+}
+
+.global-wrapper.dark .history-wrapper {
+  background-color: var(--Very-dark-grey);
+}
+
+.global-wrapper.dark .input-text {
+  background-color: var(--Dark-grey);
+  border: 1px solid var(--Lines-dark);
+}
+
+.global-wrapper.dark .input-text.empty {
+  border: 1px solid var(--Red);
+}
+
+.global-wrapper.dark .total-block {
+  background-color: var(--Dark-grey);
+  color: var(--White);
+}
+
+.product-wrapper {
+}
+.task_img {
+}
+.task-title {
+}
+.task-body {
+}
+.completed-subtasks {
+}
+.general-btn {
+}
+.add {
+}
+.hide {
+}
+.total-block {
+  height: auto;
+  background-color: var(--Light-grey);
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 20%;
+  align-self: stretch;
+  padding: 10px;
+  justify-content: center;
+}
+
+.order-wrapper .product-wrapper {
+  width: 190px;
+  height: 175px;
+  margin-right: 10px;
+}

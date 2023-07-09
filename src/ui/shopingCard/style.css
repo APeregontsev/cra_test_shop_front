@@ -1,0 +1,79 @@
+.product-wrapper.card .completed-subtasks.number {
+  margin: 0 10px;
+}
+
+.coupon-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.coupon-input-wrapper button {
+  margin-left: 10px;
+}
+
+.plus-minus-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.plus-minus-btn button {
+  height: 28px;
+  width: 28px;
+}
+
+.task_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.task_img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.task-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.task-body {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+
+  color: var(--Medium-grey);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.task_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.task_img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.completed-subtasks {
+  cursor: default;
+}

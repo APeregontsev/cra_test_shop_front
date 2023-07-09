@@ -1,0 +1,67 @@
+.heart {
+  padding: 0;
+  width: 21px;
+  height: 21px;
+  background: none;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  right: 13px;
+  top: 13px;
+  z-index: 2;
+}
+
+.heart.ico {
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+.heart svg {
+  width: 32px;
+  height: 32px;
+}
+
+.heart.ico .red_svg {
+  stroke: black;
+  stroke-width: 10;
+  fill: red;
+}
+
+.heart.ico::before {
+  content: attr(data-count);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  padding: 0px 4px;
+  height: 20px;
+  min-width: 20px;
+  width: auto;
+  border-radius: 50px;
+  background-color: var(--Main-purple);
+  position: absolute;
+  right: -12px;
+  top: -7px;
+}
+
+.global-wrapper.dark .heart.ico .red_svg {
+  stroke: white;
+  fill: white;
+}
+
+.red_svg {
+  stroke-width: 15;
+  stroke: red;
+  fill: none;
+  transform: scale(1.2);
+}
+
+.heart.active .red_svg {
+  fill: red;
+}
