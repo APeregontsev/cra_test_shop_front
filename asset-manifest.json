@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cra_test_shop_front/static/css/main.8877eae9.css",
+    "main.js": "/cra_test_shop_front/static/js/main.cd0740d6.js",
+    "static/media/hide_icon.svg": "/cra_test_shop_front/static/media/hide_icon.7e57fe4505973846c5b8.svg",
+    "static/media/hide_icon_hover.svg": "/cra_test_shop_front/static/media/hide_icon_hover.368d767c94cf3aeca5ba.svg",
+    "index.html": "/cra_test_shop_front/index.html",
+    "main.8877eae9.css.map": "/cra_test_shop_front/static/css/main.8877eae9.css.map",
+    "main.cd0740d6.js.map": "/cra_test_shop_front/static/js/main.cd0740d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8877eae9.css",
+    "static/js/main.cd0740d6.js"
+  ]
+}
